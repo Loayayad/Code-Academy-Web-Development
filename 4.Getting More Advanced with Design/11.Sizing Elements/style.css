@@ -1,0 +1,113 @@
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: white;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+p {
+    min-width: 200px;
+    min-height: 200px;
+    /* max-width: 600px*/
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Banner Section */
+
+#banner {
+    background-image: url('https://ffece5b1a5f84429bc93c35f14ef6a4e.cc-propeller.cloud/camel-background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 46rem;
+}
+
+#banner h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 3.75em;
+}
+
+/* Blog Post */
+
+#blog {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 86%;
+}
+
+#blog .post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.8;
+    color: #444444;
+    width: 52%;
+    margin-top: 12.5%;
+    margin-bottom: 7.5%;
+}
+
+.post h2 {
+    font-size: 1.875em;
+}
+
+.post h3 {
+    color: #999999;
+    font-size: 1.125em;
+}
+
+.post .opening-line {
+    margin-top: 4.1875rem;
+    margin-bottom: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.post .image-container {
+    width: 100%;
+}
+
+/* Blog Images */
+
+.images {
+    margin-bottom: 20%;
+}
+
+.images .image-container {
+    display: inline-block;
+    width: 49%;
+}
+
+/* Footer */
+
+footer {
+    padding: 4rem 0;
+    border-top: 1px solid #999999;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    text-align: center;
+    font-size: 1.125em
+}
