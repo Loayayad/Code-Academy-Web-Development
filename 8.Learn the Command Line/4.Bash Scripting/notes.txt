@@ -1,0 +1,94 @@
+
+if [ $index -lt 5 ]
+then
+  echo $index
+else
+  echo 5
+fi
+
+
+    Equal: -eq
+    Not equal: -ne
+    Less than or equal: -le
+    Less than: -lt
+    Greater than or equal: -ge
+    Greater than: -gt
+    Is null: -z
+
+for strings
+    Equal: ==
+    Not equal: !=
+if [ "$foo" == "$bar"]
+
+
+for loop
+
+for word in $paragraph
+do
+  echo $word
+done
+
+while loop
+
+while [ $index -lt 5 ]
+do
+  echo $index
+  index=$((index + 1))
+done
+
+until loop
+
+until [ $index -eq 5 ]
+do
+  echo $index
+  index=$((index + 1))
+done
+
+
+inputs
+
+first way 
+
+echo "Guess a number"
+read number
+echo "You guessed $number"
+
+second way 
+
+saycolors red green blue
+$1 to red
+$2 to green
+
+$@ for indefinite inputs
+for color in "$@"
+do
+  echo $color
+done
+
+to access all files in a folder
+files=/some/directory/*
+
+iterate over them
+
+for file in $files
+do
+  echo $file
+done
+
+
+to make alias wit the given input directly like
+
+alias saycolors='./saycolors.sh "green"'
+// no spaces
+
+
+
+// for the project
+
+    Copy secretinfo.md but replace “42” with “XX”.
+    
+    Zip the resulting build directory.
+    
+    Give the script more character with emojis.
+    
+    If you are familiar with git, commit the changes in the build directory.

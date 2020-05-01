@@ -1,0 +1,69 @@
+command orders in linus redirection
+
+echo ""
+accepts the string “Hello” as standard input, and echoes the string “Hello” back to the terminal as standard output.
+
+stdin
+is information inputted into the terminal through the keyboard or input device. 
+
+stdout
+is the information outputted after a process is run. 
+
+stderr 
+is an error message outputted by a failed process.
+
+echo "hello" > hello.txt
+redirects the standard output to a file. 
+
+cat hello.txt
+show the contents of a file to the terminal.
+
+cat file name > file name
+takes the standard output of the command on the left, and redirects it to the file on the right. 
+
+
+cat file name >> file name 
+takes the standard output of the command on the left and appends (adds) it to the file on the right.
+
+
+cat < file name
+takes the standard input from the file on the right and inputs it into the program on the left.
+
+
+cat file name | wc | file name 
+example {
+-cat volcanoes.txt | wc | cat > islands.txt 
+-cat lakes.txt | sort > sorted-lakes.txt 
+-sort deserts.txt | uniq > uniq-deserts.txt 
+
+}
+| is a “pipe”. The | takes the standard output of the command on the left, and pipes it as standard input to the command on the right. 
+
+sort file name 
+to sort the file asce
+
+uniq file name 
+filters out adjacent, duplicate lines in a files
+grep     // grep -i  i for case insensitive for a a letter or pattern
+ex: grep Mount mountains.txt
+grep -i Mount mountains.txt
+It searches files for lines that match a pattern and returns the results.
+
+grep -R  // grep -Rl  for a word in files  -R for recursive  
+-l for file only with matches
+searches all files in a directory and outputs filenames and lines containing matched results. -R stands for “recursive”.
+
+
+sed (stream editor) 
+ex: $ sed 's/snow/rain/' forests.txt 
+ //replace the first instance of “snow” on a line.
+ 
+$ sed 's/snow/rain/g' forests.txt     // g for general 
+
+-s: stands for “substitution”
+-snow: the search string, the text to find.
+-rain: the replacement string, the text to add in place. 
+
+accepts standard input and modifies it based on an expression, before displaying it as output data. It is similar to “find and replace”. 
+
+

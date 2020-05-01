@@ -1,0 +1,56 @@
+command orders in linux general
+
+navigation and manipulation
+
+ls (list )
+show the list of folders in the location i stand
+
+pwd  (print working directory)
+outputs the name of the directory you are currently in
+
+cd (change directory)
+to go from one folder to another
+
+mkdir  (make directory)
+to make a folder 
+
+touch
+create a new file inside the working directory
+
+ls + 
+{
+-a 
+- lists all contents, including hidden files and directories
+-l
+- lists all contents of a directory in long format
+-t 
+- order files and directories by the time they were last modified.
+}
+
+or ls - alt to mixx all the preivous 
+
+cp (copy)
+copy the files given in the command
+
+cp files path   diestination path
+
+cp * destination 
+to copy all files of the current to destination
+
+
+cp m*.txt destination
+selects all files in the working directory starting with “m” and ending with “.txt”, and copies them to destination
+
+
+mv (move) similar to cp
+mv source destination
+
+mv old file name  new file name
+
+rm (remove)
+
+rm file name
+rm -r folder name // -r to delete all inside too
+
+rm foldername/*
+delete all files in the dir media
