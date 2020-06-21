@@ -1,0 +1,5 @@
+convert from ES^ to ES5
+
+npm install babel-cli
+npm install babel-preset-env
+npm run build

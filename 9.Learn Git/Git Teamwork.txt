@@ -1,0 +1,28 @@
+Git Teamwork
+
+-git clone remote_location clone_name
+remote_location tells Git where to go to find the remote. This could be a web address
+clone_name is the name you give to the directory in which Git will clone the repository. 
+-git remote -v  //see a list of a Git project’s remotes the origins
+-git fetch  //his command will not merge changes from the remote into your local repository. It brings those changes onto what’s called a remote branch. 
+-git push origin your_branch_name  // push your branch up to the remote, origin
+
+workflow
+1-Fetch and merge changes from the remote
+2-Create a branch to work on a new project feature
+3-Develop the feature on your branch and commit your work
+4-Fetch and merge from the remote again (in case new commits were made while you were working)
+5-Push your branch up to te remote for review
+
+
+1- clone the origin 
+2-navigate to the new copy
+3-make a branch
+4-change from master to the branch
+5-do the changes in the file as mush as you could
+6-add the file 
+7-commit the file
+8-push to origin
+9-navigate to the origin folder
+10-merge with the origin
+11-delete branch

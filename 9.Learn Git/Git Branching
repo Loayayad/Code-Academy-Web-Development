@@ -1,0 +1,7 @@
+Git Branching
+
+-git branch show the branches
+-git branch new_branch  //To create a new branch
+-git checkout branch_name  //switch to the new branch 
+-git merge branch_name  //merging the branch into master
+-git branch -d branch_name  //will delete the specified branch from your Git project. 

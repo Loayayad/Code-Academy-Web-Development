@@ -1,0 +1,12 @@
+Basic Git Workflow
+
+-git init   //init means initialize. The command sets up all the tools Git needs to begin tracking changes made to the project.
+-git status    //check the status
+-git add filename   //add a file to the staging area 
+-git diff filename // check the differences between the working directory and the staging area 
+-git commit -m  //commit permanently stores changes from the staging area inside the repository.
+-git log  // ommits are stored chronologically in the repository and can be viewed 
+
+to push the project in github
+-git remote add origin https://github.com/Loayayad/git_practice.git
+-git push -u origin master

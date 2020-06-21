@@ -1,0 +1,49 @@
+ learn how to setup a JavaScript project that transpiles code when you run npm run build from the root directory of a JavaScript project.
+
+project
+|_ src
+|___ main.js
+
+run npm init
+npm install babel-cli -D
+npm install babel-preset-env -D
+
+make folder 
+touch .babelrc
+project
+|_ node_modules
+|___ .bin
+|___ ...
+|_ src
+|___ main.js
+|_ .babelrc
+|_ package.json
+
+
+add this code in .babelrc 
+{
+  "presets": ["env"]
+}
+
+Inside of the package.json file,
+
+add 
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "build": "babel src -d lib"
+}
+
+run 
+npm run build
+
+project
+|_ lib
+|___ main.js
+|_ node_modules
+|___ .bin
+|___ ...
+|_ src
+|___ main.js
+|_ .babelrc
+|_ package.json
+

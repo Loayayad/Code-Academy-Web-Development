@@ -1,0 +1,10 @@
+
+X-Press Publishing Solution Code
+X-Press Publishing Solution Code
+
+Codecademy solution code for X-Press-Publishing
+
+To check your own work, or if you get stuck, you can download the X-Press Publishing Solution Code. To run the app, you’ll need to npm install, but the database file is included, so you shouldn’t need to run the migration or seed file.
+
+Remember, our solution is only one way to implement the Expresso API and pass the tests. Your solution may use a different file, router structure, or logic within each route.
+

@@ -1,0 +1,9 @@
+How to Backtrack in Git
+
+-git show HEAD //the most recently made commit is the HEAD commit. 
+-git checkout HEAD filename  //will restore the file in your working directory to look exactly as it did when you last made a commit. (undo for the file)
+-git reset HEAD filename //unstage that file from the staging area (remove the file from the next commit)
+-git reset commit_SHA  //This command works by using the first 7 characters of the SHA of a previous commit.
+enables you to rewind to the part before you made the wrong turn
+
+return the commit then return the files in it 

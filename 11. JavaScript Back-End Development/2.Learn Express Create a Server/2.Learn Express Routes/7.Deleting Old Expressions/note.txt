@@ -1,0 +1,5 @@
+DELETE is the HTTP method verb used to delete resources. Because DELETE routes delete currently existing data, their paths should usually end with a route parameter to indicate which resource to delete.
+
+Express uses .delete() as its method for DELETE requests.
+
+Servers often send a 204 No Content status code if deletion occurs without error.
